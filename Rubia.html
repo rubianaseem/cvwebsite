@@ -1,0 +1,948 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><br></p>
+<p class="p2">&lt;!DOCTYPE html&gt;</p>
+<p class="p2">&lt;!--[if lt IE 9 ]&gt;&lt;html class="no-js oldie" lang="en"&gt; &lt;![endif]--&gt;</p>
+<p class="p2">&lt;!--[if IE 9 ]&gt;&lt;html class="no-js oldie ie9" lang="en"&gt; &lt;![endif]--&gt;</p>
+<p class="p2">&lt;!--[if (gte IE 9)|!(IE)]&gt;&lt;!--&gt;</p>
+<p class="p2">&lt;html class="no-js" lang="en"&gt;</p>
+<p class="p2">&lt;!--&lt;![endif]--&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;head&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!--- basic page needs</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;meta charset="utf-8"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;title&gt;Hola&lt;/title&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;meta name="description" content=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;meta name="author" content=""&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- mobile specific metas</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- CSS</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="css/base.css"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="css/vendor.css"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="css/main.css"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- script</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="js/modernizr.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="js/pace.min.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- favicons</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;link rel="icon" href="favicon.ico" type="image/x-icon"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/head&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;body id="top"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- header</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;header class="s-header"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="header-logo"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;a class="site-logo" href="index.html"&gt;&lt;img src="images/logo.png" alt="Homepage"&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;nav class="header-nav-wrap"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;ul class="header-nav"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li class="current"&gt;&lt;a class="smoothscroll"<span class="Apple-converted-space">  </span>href="#home" title="home"&gt;Home&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a class="smoothscroll"<span class="Apple-converted-space">  </span>href="#about" title="about"&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a class="smoothscroll"<span class="Apple-converted-space">  </span>href="#works" title="works"&gt;Works&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a class="smoothscroll"<span class="Apple-converted-space">  </span>href="#blog" title="blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a class="smoothscroll"<span class="Apple-converted-space">  </span>href="#contact" title="contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;a class="header-menu-toggle" href="#0"&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/header&gt; &lt;!-- end s-header --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">   </span>&lt;!-- home</p>
+<p class="p2"><span class="Apple-converted-space">   </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">   </span>&lt;section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="overlay"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="shadow-overlay"&gt;&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="home-content"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="row home-content__main"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;Hello There&lt;/h3&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>I am Rubia Naseem. &lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>Certified Digital Marketing &lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>Consultant &amp; Project Manager<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/h1&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="home-content__buttons"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;a href="#works" class="smoothscroll btn btn--stroke"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Latest Projects</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;a href="#about" class="smoothscroll btn btn--stroke"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>More About Me</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="home-content__scroll"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;a href="#about" class="scroll-link smoothscroll"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;Scroll Down&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end home-content --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;ul class="home-social"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="https://www.facebook.com/digitalrubia"&gt;&lt;i class="im im-facebook" aria-hidden="true"&gt;&lt;/i&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="#"&gt;&lt;i class="im im-twitter" aria-hidden="true"&gt;&lt;/i&gt;&lt;span&gt;Twitter&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="https://www.instagram.com/rubiyanaseem"&gt;&lt;i class="im im-instagram" aria-hidden="true"&gt;&lt;/i&gt;&lt;span&gt;Instagram&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="https://www.linkedin.com/in/rubia-naseem-36a10870/"&gt;&lt;i class="im im-Linkedin" aria-hidden="true"&gt;&lt;/i&gt;&lt;span&gt;Linkedin&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="https://www.youtube.com/channel/UCPIvhDSsY24e4fE98_mWZVw"&gt;&lt;i class="im im-Youtube" aria-hidden="true"&gt;&lt;/i&gt;&lt;span&gt;Youtube&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/ul&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;!-- end home-social --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/section&gt; &lt;!-- end s-home --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- about</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;section id="about" class="s-about target-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row narrow section-intro has-bottom-sep"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full text-center"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;About&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h1&gt;More About Me&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p class="lead"&gt;I'm passionate about digital marketing. I help in planning a perfect business strategy, marketing budget, and implement using the latest technology and tools. Successful in project management on various niche. Have handled over 50+ projects in the past 9 years.</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row about-content"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-six tab-full left"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;Howdy!&lt;/h3&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.<span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-six tab-full right"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;I've Got Some skills.&lt;/h3&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul class="skill-bars"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="progress percent90"&gt;&lt;span&gt;90%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;strong&gt;Content Writing&lt;/strong&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="progress percent85"&gt;&lt;span&gt;85%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;strong&gt;Business Strategy&lt;/strong&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="progress percent70"&gt;&lt;span&gt;70%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;strong&gt;Project Management&lt;/strong&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="progress percent95"&gt;&lt;span&gt;95%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;strong&gt;Paid Campaigns&lt;/strong&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="progress percent80"&gt;&lt;span&gt;80%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;strong&gt;CRM Tools &amp; Systens&lt;/strong&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;<span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="progress percent90"&gt;&lt;span&gt;90%&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;strong&gt;Email Marketing &amp; Marketing Automation&lt;/strong&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;<span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end about-content --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row about-content about-content--buttons"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-six tab-full left"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="#0" class="btn btn--primary full-width"&gt;Download My CV&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-six tab-full right"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="#0" class="btn full-width"&gt;Hire Me Now&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end about-content buttons --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row about-content about-content--timeline"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full text-center"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;My Work Experience.&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-six tab-full left"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="timeline"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="timeline__block"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__bullet"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__header"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="timeline__timeframe"&gt;July 2015 - Present&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3&gt;Awesome Studio&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h5&gt;Lead Designer&lt;/h5&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__desc"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end timeline__block --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="timeline__block"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__bullet"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__header"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="timeline__timeframe"&gt;July 2014 - June 2015&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3&gt;Super Cool Agency&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h5&gt;Front-end Developer&lt;/h5&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__desc"&gt;<span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end timeline__block --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end timeline --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt; &lt;!-- end left --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-six tab-full right"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="timeline"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="timeline__block"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__bullet"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__header"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="timeline__timeframe"&gt;July 2012 - June 2014&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3&gt;Great Design Studio&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h5&gt;Web Designer&lt;/h5&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__desc"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end timeline__block --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="timeline__block"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__bullet"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__header"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="timeline__timeframe"&gt;July 2011 - June 2012&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3&gt;Epic Design Agency&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h5&gt;Web Designer&lt;/h5&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="timeline__desc"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end timeline__block --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end timeline --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt; &lt;!-- end right --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end about-content timeline --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/section&gt; &lt;!-- end about --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- works</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;section id="works" class="s-works target-section"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row narrow section-intro has-bottom-sep"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;Portfolio&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h1&gt;See My Latest Projects.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p class="lead"&gt;Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row masonry-wrap"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="masonry"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/beetle.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>The Beetle</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Web Development</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/lighthouse.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Lighthouse</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Web Design</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/salad.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Salad</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Branding</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/span&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/woodcraft.jpg"</p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Woodcraft</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Branding</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/span&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/skaterboy.jpg"</p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Skaterboy</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Web Development</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/span&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/liberty.jpg"</p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Liberty</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Branding</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/span&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/minimalismo.jpg"</p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Minimalismo</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Web Design</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/span&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="masonry__brick"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="item-folio"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__thumb"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;img src="images/portfolio/shutterbug.jpg"</p>
+<p class="p2"><span class="Apple-converted-space">                                     </span>srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;span class="shadow-overlay"&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="item-folio__text"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;h3 class="item-folio__title"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Lady Shutterbug</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p class="item-folio__cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>Branding</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="im im-link"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span class="item-folio__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/span&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt; &lt;!-- end item-folio --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end masonry__brick --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end masonry --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/section&gt; &lt;!-- end works --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- testimonials</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="s-testimonials"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="overlay"&gt;&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row testimonials-header"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h1 class="h02"&gt;What People Say.&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row testimonials"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full testimonials__slider"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="testimonials__slide"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;p&gt;Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum.<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="testimonials__author h06"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Tim Cook</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;CEO, Apple&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="testimonials__slide"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;p&gt;Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="testimonials__author h06"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Sundar Pichai</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;CEO, Google&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="testimonials__slide"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;p&gt;Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam. <span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="testimonials__author h06"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Satya Nadella</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;CEO, Microsoft&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt; &lt;!-- end testimonials__slider --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end testimonials --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt; &lt;!-- end s-testimonials --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- blog</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;section id="blog" class="s-blog target-section"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row narrow section-intro has-bottom-sep"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;Journal&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h1&gt;Latest From The Blog.&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p class="lead"&gt;Lorem ipsum Dolor adipisicing nostrud et aute.<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row blog-content"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="blog-list block-1-2 block-tab-full"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;article class="col-block"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-date"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="blog-single.html"&gt;Sept 16, 2017&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt; <span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;h2 class="h01"&gt;&lt;a href="blog-single.html"&gt;The 10 Golden Rules of Clean Simple Design.&lt;/a&gt;&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;a href="blog.html"&gt;Branding&lt;/a&gt;&lt;a href="blog.html"&gt;Design&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">                        </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/article&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;article class="col-block"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-date"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="blog-single.html"&gt;Sept 15, 2017&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt; <span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;h2 class="h01"&gt;&lt;a href="blog-single.html"&gt;Photography Can Improve Your Graphic Design.&lt;/a&gt;&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="blog.html"&gt;Photography&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">                        </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/article&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;article class="col-block"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-date"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="blog-single.html"&gt;Sept 14, 2017&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;h2 class="h01"&gt;&lt;a href="blog-single.html"&gt;Workspace Design Trends and Ideas.&lt;/a&gt;&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="blog.html"&gt;Branding&lt;/a&gt;&lt;a href="blog.html"&gt;Wordpress&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/article&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;article class="col-block"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-date"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="blog-single.html"&gt;Sept 12, 2017&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt; <span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;h2 class="h01"&gt;&lt;a href="blog-single.html"&gt;Using Patterns in your Branding.&lt;/a&gt;&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="blog-cat"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="blog.html"&gt;Design&lt;/a&gt;&lt;a href="blog.html"&gt;Branding&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/article&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt; &lt;!-- end blog-list --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt; &lt;!-- end col-full --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end blog-content --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/section&gt; &lt;!-- end s-blog --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- s-cta</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;section class="s-cta"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row narrow cta"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full cta__content"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h2 class="h01"&gt;&lt;a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"&gt;Styleshout Recommends Dreamhost.&lt;/a&gt;&lt;/h2&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p class="lead"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>Looking for an awesome and reliable webhosting? Try &lt;a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"&gt;DreamHost&lt;/a&gt;.</p>
+<p class="p2"><span class="Apple-converted-space">                </span>Get &lt;span&gt;$50 off&lt;/span&gt; when you sign up with the promocode &lt;span&gt;styleshout&lt;/span&gt;.</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="cta__action"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;a class="btn btn--primary btn--large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"&gt;Sign Up Now&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;<span class="Apple-tab-span">	</span></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end cta --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- s-stats</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;section id="stats" class="s-stats"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row block-1-4 block-tab-1-2 block-mob-full stats"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-block stats__col "&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="stats__count"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>128</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h4&gt;Awards Received&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-block stats__col"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="stats__count"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>1500</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h4&gt;Cups of Coffee&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-block stats__col stats__col--highlight"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="stats__upsign"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;a href="#"&gt;&lt;i class="im im-arrow-up" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="stats__count"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>110</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h4&gt;Projects Completed&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-block stats__col"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="stats__count"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>101</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h4&gt;Happy Clients&lt;/h4&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/section&gt; &lt;!-- end s-stats --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- s-stats</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;section id="contact" class="s-contact target-section"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="overlay"&gt;&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row narrow section-intro"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h3&gt;Contact&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h1&gt;Say Hello.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p class="lead"&gt;Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row contact__main"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-eight tab-full contact__form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;form name="contactForm" id="contactForm" method="post" action=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="form-field"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="form-field"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="form-field"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="form-field"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"&gt;&lt;/textarea&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="form-field"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;button class="full-width btn--primary"&gt;Submit&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="submit-loader"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;div class="text-loader"&gt;Sending...&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;div class="s-loader"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;div class="bounce1"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;div class="bounce2"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;div class="bounce3"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/fieldset&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/form&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;!-- contact-warning --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="message-warning"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>Something went wrong. Please try again.</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;!-- contact-success --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="message-success"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>Your message was sent, thank you!&lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-four tab-full contact__infos"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h4 class="h06"&gt;Phone&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;Phone: (+63) 555 1212&lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>Mobile: (+63) 555 0100&lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>Fax: (+63) 555 0101</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h4 class="h06"&gt;Email&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;someone@holawebsite.com&lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>info@holawebsite.com</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h4 class="h06"&gt;Address&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>1600 Amphitheatre Parkway&lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>Mountain View, CA&lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>94043 US</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/section&gt; &lt;!-- end s-contact --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- footer</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-full"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="footer-logo"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;a class="footer-site-logo" href="#0"&gt;&lt;img src="images/logo.png" alt="Homepage"&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul class="footer-social"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#0"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;i class="im im-facebook" aria-hidden="true"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;Facebook&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#0"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;i class="im im-twitter" aria-hidden="true"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;Twitter&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#0"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;i class="im im-instagram" aria-hidden="true"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;Instagram&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#0"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;i class="im im-behance" aria-hidden="true"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;Behance&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#0"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;i class="im im-pinterest" aria-hidden="true"&gt;&lt;/i&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;span&gt;Pinterest&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row footer-bottom"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="col-twelve"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="copyright"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;span&gt;© Copyright Hola 2017&lt;/span&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;span&gt;Design by &lt;a href="https://www.styleshout.com/"&gt;styleshout&lt;/a&gt;&lt;/span&gt;<span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="go-top"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a class="smoothscroll" title="Back to Top" href="#top"&gt;&lt;i class="im im-arrow-up" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt; &lt;!-- end footer-bottom --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/footer&gt; &lt;!-- end footer --&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- photoswipe background</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div aria-hidden="true" class="pswp" role="dialog" tabindex="-1"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="pswp__bg"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="pswp__scroll-wrap"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="pswp__container"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="pswp__item"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="pswp__item"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="pswp__item"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="pswp__ui pswp__ui--hidden"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="pswp__top-bar"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="pswp__counter"&gt;&lt;/div&gt;&lt;button class="pswp__button pswp__button--close" title="Close (Esc)"&gt;&lt;/button&gt; &lt;button class="pswp__button pswp__button--share" title=</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>"Share"&gt;&lt;/button&gt; &lt;button class="pswp__button pswp__button--fs" title="Toggle fullscreen"&gt;&lt;/button&gt; &lt;button class="pswp__button pswp__button--zoom" title=</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>"Zoom in/out"&gt;&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="pswp__preloader"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div class="pswp__preloader__icn"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;div class="pswp__preloader__cut"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;div class="pswp__preloader__donut"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="pswp__share-tooltip"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;&lt;button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"&gt;&lt;/button&gt; &lt;button class="pswp__button pswp__button--arrow--right" title=</p>
+<p class="p2"><span class="Apple-converted-space">                </span>"Next (arrow right)"&gt;&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="pswp__caption"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;div class="pswp__caption__center"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;&lt;!-- end photoSwipe background --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div id="preloader"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div id="loader"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;!-- Java Script</p>
+<p class="p2"><span class="Apple-converted-space">    </span>================================================== --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="js/jquery-3.2.1.min.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="js/plugins.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="js/main.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/body&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/html&gt;</p>
+</body>
+</html>
